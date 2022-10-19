@@ -1,0 +1,28 @@
+Source: sphinx-markdown-tables
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders:
+ Peter Wienemann <fossdev@posteo.de>,
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all,
+ python3-setuptools,
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://github.com/ryanfox/sphinx-markdown-tables
+Vcs-Browser: https://salsa.debian.org/python-team/packages/sphinx-markdown-tables
+Vcs-Git: https://salsa.debian.org/python-team/packages/sphinx-markdown-tables.git
+
+Package: python3-sphinx-markdown-tables
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Description: Sphinx extension for rendering markdown tables (Python 3)
+ While Sphinx supports markdown thanks to the recommonmark extension,
+ the latter does not cover tables. The sphinx-markdown-tables extension
+ remedies this shortcoming.
+ .
+ This package installs the library for Python 3.

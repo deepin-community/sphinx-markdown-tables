@@ -1,0 +1,2 @@
+# Upstream does not provide signed releases
+sphinx-markdown-tables source: debian-watch-does-not-check-gpg-signature

@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sphinx-markdown-tables
+Source: https://github.com/ryanfox/sphinx-markdown-tables
+
+Files: *
+Copyright: 2018-2020, Ryan Fox <ryan@foxrow.com>
+License: GPL-3.0
+
+Files: debian/*
+Copyright: 2020, Peter Wienemann <fossdev@posteo.de>
+License: GPL-3.0
+
+License: GPL-3.0
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

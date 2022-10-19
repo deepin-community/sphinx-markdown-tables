@@ -1,0 +1,12 @@
+sphinx-markdown-tables (0.0.15-2) unstable; urgency=medium
+
+  * Team upload.
+  * Wrapping and sorting.
+
+ -- Andrius Merkys <merkys@debian.org>  Sat, 24 Oct 2020 02:00:43 -0400
+
+sphinx-markdown-tables (0.0.15-1) unstable; urgency=medium
+
+  * Initial release (Closes: #971279)
+
+ -- Peter Wienemann <fossdev@posteo.de>  Sun, 27 Sep 2020 13:18:17 +0200

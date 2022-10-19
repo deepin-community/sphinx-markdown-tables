@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+# output every command that modifies files on the build system.
+export DH_VERBOSE=1
+# switch on verbose pybuild output
+export PYBUILD_VERBOSE=1
+
+export PYBUILD_NAME=sphinx-markdown-tables
+
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	rm debian/python3-sphinx-markdown-tables/usr/LICENSE
+
+override_dh_clean:
+	dh_clean
+	rm -rf sphinx_markdown_tables.egg-info

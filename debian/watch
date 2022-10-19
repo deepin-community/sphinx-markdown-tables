@@ -1,0 +1,4 @@
+version=4
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%sphinx-markdown-tables-$1.tar.gz%" \
+   https://github.com/ryanfox/sphinx-markdown-tables/tags \
+   (?:.*?/)?v?(\d[\d.]*)\.tar\.gz
